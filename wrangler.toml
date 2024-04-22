@@ -1,0 +1,6 @@
+[[d1_databases]]
+binding = "DB" # i.e. available in your Worker on env.DB
+database_name = "buku"
+database_id = "deb1e5e2-5146-411a-9eec-93d40e72f55e"
+preview_database_id = "DB" # Required for Pages local development
+
