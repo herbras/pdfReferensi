@@ -38,8 +38,6 @@ content: 'Aplikasi untuk mengakses file Google Drive dengan cepat Referensi Kutu
 ],
 });
 import { ref } from 'vue';
-import SearchForm from '@/components/SearchForm.vue';
-import BookCard from '@/components/BookCard.vue';
 
 const searchQuery = ref('');
 const searchResults = ref([]);
@@ -47,7 +45,7 @@ const searchResults = ref([]);
 const searchBooks = async (query) => {
     searchQuery.value = query;
 
-    const { data, pending, error, refresh } = await useFetch('/api/db', {
+    const { data } = await useFetch('/api/db', {
         query: { query: searchQuery },
         lazy: true,
     }); searchResults.value = data.value || [];
