@@ -14,3 +14,6 @@ Maunya sih pake Nuxt biar satset nyambungin paket2 JS dan bisa nambah fitur ala2
 - Ulang2 Komponen (Harus Unik)
 - udah
 - Fitur lanjutan nya ya.. pakaikan PDF JS
+
+
+Emang Plaing bener itu ya... HTMX 
