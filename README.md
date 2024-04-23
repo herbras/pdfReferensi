@@ -1,75 +1,16 @@
-# Nuxt 3 Minimal Starter
+# Biar gampang nyarinya, ya pake WebAPP PWA LOCA
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Alasan Ngebuat
 
-## Setup
+Sqlitenya udah aku tambah Cari seluruh teks, terus dipisah-pisah biar nyepetin nyari judul. Terus udah kukasih masing2 komponennya 1 untuk nyari, 1 untuk nampilin.
 
-Make sure to install the dependencies:
+## Solusi Malazz
 
-```bash
-# npm
-npm install
+Maunya sih pake Nuxt biar satset nyambungin paket2 JS dan bisa nambah fitur ala2.. eh taunya ada Worker WASM yang punya beban 2MB, akhirnya gagal deploy gara2 ini
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Kalau mau cek dan tiru pake framewok lain silakan, intinya mah sama.. 
+- sambungin DB
+- Query Params
+- Ulang2 Komponen (Harus Unik)
+- udah
+- Fitur lanjutan nya ya.. pakaikan PDF JS
